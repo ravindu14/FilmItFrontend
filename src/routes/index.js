@@ -62,7 +62,7 @@ function mapStateToProps(state) {
   return {
     isAuthenticated: isAuthenticated(state),
     isUserInitiated: isUserInitiated(state),
-    currentUserRole: state.auth.role,
+    currentUserRole: "admin",
   };
 }
 

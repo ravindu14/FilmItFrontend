@@ -1,0 +1,46 @@
+.success {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #e4e4e4;
+  &-heading {
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px auto 50px auto;
+  }
+  &-form {
+    &-search {
+      .form-input {
+        input {
+          border: 1px solid #e6e6e6 !important;
+          border-radius: 5px;
+          margin-bottom: 10px;
+        }
+        textarea {
+          border: 1px solid #e6e6e6;
+          border-radius: 5px;
+        }
+      }
+      .form-select {
+        margin-bottom: 25px;
+      }
+      .field-label {
+        font-size: 14px;
+        text-align: left;
+        padding-right: 20px;
+        padding-top: 10px;
+      }
+    }
+  }
+  .result-container {
+    padding: 20px 50px;
+    margin: 20px auto;
+    background: #333366e6;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+  }
+}

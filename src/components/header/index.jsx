@@ -35,14 +35,8 @@ class Header extends PureComponent<HeaderProps> {
   }
 }
 
-function mapStateToProps(state) {
-  return {
-    errors: state.auth.errors,
-    isAuthSuccess: state.auth.isAuthSuccess,
-    isAuthenticated: state.auth.isAuthenticated,
-    user: state.auth.user,
-    status: state.auth.status,
-  };
+function mapStateToProps() {
+  return {};
 }
 
 const Actions = {};
