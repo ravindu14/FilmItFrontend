@@ -1,15 +1,18 @@
 // @flow
 import type { ApiServiceInterface } from "shared/services/ApiServiceInterface";
-import axios from "axios";
 
-export class SuccessRateService {
+export class AuthService {
   api: ApiServiceInterface;
 
   constructor(apiService: ApiServiceInterface) {
     this.api = apiService;
   }
 
-  getMovieSuccessRate(payload: Object) {
-    return axios.post("http://localhost:5000/success-rate", payload);
+  isUniqueScript(query: Object) {
+    return this.api.get("/script/uniqueness", query);
+  }
+
+  saveScript(payload: Object) {
+    return this.api.post("/script/save", payload);
   }
 }

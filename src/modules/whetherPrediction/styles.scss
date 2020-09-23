@@ -78,7 +78,6 @@
         color: darkslategray;
       }
     }
-
     .modal-button-container {
       float: right;
       margin-top: 2%;
@@ -89,26 +88,6 @@
         margin: 5px;
         padding-left: 2px;
       }
-    }
-    .predictedImage {
-      width: 550px;
-      margin: 20px auto;
-      img {
-        width: 100%;
-      }
-    }
-    .predictedWeather {
-      font-weight: 500;
-      width: fit-content;
-      margin: 0px auto;
-      font-size: 18px;
-      color: #363636;
-    }
-    .predictedSupport {
-      font-size: 12px;
-      width: 100%;
-      text-align: center;
-      padding: 10px;
     }
   }
 }
